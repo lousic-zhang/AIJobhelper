@@ -1,0 +1,64 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e6]:
+      - link [ref=e8] [cursor=pointer]:
+        - /url: http://game.163.com/
+      - list [ref=e11]:
+        - listitem [ref=e12] [cursor=pointer]: 首页
+        - listitem [ref=e13] [cursor=pointer]: 人才专项
+        - listitem [ref=e15] [cursor=pointer]: 热招职位
+        - listitem [ref=e16] [cursor=pointer]: 招聘动态
+        - listitem [ref=e17] [cursor=pointer]: 映像互娱
+        - listitem [ref=e18] [cursor=pointer]: 了解互娱
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - link [ref=e23] [cursor=pointer]:
+            - /url: https://weibo.com/163yxzp?refer_flag=1001030103_&is_all=1
+          - link [ref=e25] [cursor=pointer]:
+            - /url: https://game.academy.163.com/
+        - generic [ref=e27] [cursor=pointer]: 登录
+    - generic [ref=e490]:
+      - generic [ref=e491]:
+        - generic [ref=e492]:
+          - generic [ref=e493]: AI Agent 工程师（游戏研发方向）
+          - generic [ref=e495] [cursor=pointer]: 投递职位
+        - generic [ref=e496]:
+          - generic [ref=e497]: 游戏研发类
+          - generic [ref=e499]: 广州、杭州、上海
+          - generic [ref=e501]: 2027届实习生项目
+      - generic [ref=e504]:
+        - generic [ref=e505]:
+          - generic [ref=e507]: 职位描述
+          - generic [ref=e508]: 1.研究前沿AI Agent及AIGC技术，推动其在游戏研发管线中的落地应用，将技术转化为优化游戏生产效率和升级玩家体验的实际解决方案； 2.设计与开发基于AI Agent的游戏研发工具链，覆盖代码生成与审查、自动化测试与优化、策划配置生成、程序脚本生成、美术资产生成与处理等核心制作环节，构建可复用、可迭代的AI驱动研发工作流； 3.负责多模态内容生成的研发与应用工作，包括2D图像、视频、3D模型、动画等内容的生成、控制与优化；针对图像、视频、Mesh等多媒体数据，持续打磨生成质量与效率； 4.搭建相关数据集、工具链及自动化工作流程，赋能美术、程序、策划等内部团队，协同重构工业化管线，建立AI驱动的敏捷研发新模式； 5.与跨职能团队紧密合作，深入分析游戏研发中的实际痛点，设计并交付高效的技术解决方案，推动AI能力在真实项目中的规模化落地。
+        - generic [ref=e509]:
+          - generic [ref=e511]: 任职资格
+          - generic [ref=e512]: 1.计算机科学、人工智能、数学、统计学或相关专业背景； 2.熟悉大语言模型及AI Agent技术的原理、最新进展、能力边界和应用场景，包括但不限于RAG、Tool Use、Multi-Agent协作、Agentic Workflow等；或熟悉AIGC技术原理与最新进展，包括图像/视频/3D内容生成、多模态大模型、3D动作生成等方向； 3.熟练掌握PyTorch/TensorFlow等深度学习框架，熟悉当前主流2D/3D/动画生成模型或LLM/Agent训练与推理框架，具备模型训练、微调与可控推理的实战能力； 4.具备扎实的编程能力和良好的工程素养，能够借助AI编程工具提升开发效率，独立完成从数据处理到模型部署、或从原型开发到系统持续迭代的完整流程； 5.了解游戏引擎和游戏开发流程，具备跨领域技术视野；了解3D重建、游戏美术建模、3D动画生成、动捕数据处理流程者优先； 6.对AI与游戏结合的前沿探索有浓厚兴趣，愿意推动技术落地与创新发展。 【加分项】 1.在ICML、NeurIPS、AAAI、AAAI/SIGGRAPH等顶级会议或期刊上发表过相关论文； 2.有游戏开发或运营相关经验，或有AI Agent工具链在实际产品中落地的项目经验； 3.热爱游戏，对游戏行业有深入了解。
+    - contentinfo [ref=e284]:
+      - generic [ref=e285]:
+        - generic [ref=e286]:
+          - link [ref=e287] [cursor=pointer]:
+            - /url: https://www.163.com/
+          - link [ref=e289] [cursor=pointer]:
+            - /url: http://game.163.com/
+          - generic [ref=e291]:
+            - link "公司简介" [ref=e292] [cursor=pointer]:
+              - /url: http://gb.corp.163.com/gb/about/overview.html
+            - link "客户服务" [ref=e293] [cursor=pointer]:
+              - /url: https://help.mail.163.com/service.html
+            - link "网易集团隐私政策及儿童个人信息保护规则" [ref=e294] [cursor=pointer]:
+              - /url: http://gb.corp.163.com/gb/legal.html
+            - link "网易游戏" [ref=e295] [cursor=pointer]:
+              - /url: http://game.163.com/about/
+            - link "商务合作" [ref=e296] [cursor=pointer]:
+              - /url: http://game.163.com/contact/business.html
+            - link "联系我们" [ref=e297] [cursor=pointer]:
+              - /url: http://game.163.com/contact/business.html
+          - generic [ref=e298]:
+            - text: 网易公司版权所有
+            - generic [ref=e299]: ©1997-2026
+            - link "中国网络游戏版权保护联盟举报中心" [ref=e300] [cursor=pointer]:
+              - /url: http://www.cogcpa.org/
+            - link "ICP备案： 粤B2-20090191-18" [ref=e301] [cursor=pointer]:
+              - /url: http://beian.miit.gov.cn/
+        - generic [ref=e303]: 关注我们
+  - text:    

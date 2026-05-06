@@ -1,0 +1,268 @@
+- generic [ref=e3]:
+  - banner [ref=e5]:
+    - link "logo" [ref=e7] [cursor=pointer]:
+      - /url: "#/campus/index"
+      - img "logo" [ref=e8]
+    - navigation [ref=e9]:
+      - link "首页" [ref=e10] [cursor=pointer]:
+        - /url: "#/campus/index"
+      - link "快Star-X" [ref=e11] [cursor=pointer]:
+        - /url: "#/campus/talent"
+      - link "应届招聘" [ref=e12] [cursor=pointer]:
+        - /url: "#/campus/jobs?positionNatureCode=fulltime"
+      - link "实习招聘" [ref=e13] [cursor=pointer]:
+        - /url: "#/campus/jobs?positionNatureCode=intern"
+      - link "校招动态" [ref=e14] [cursor=pointer]:
+        - /url: "#/campus/schedule/process"
+      - link "探索快手" [ref=e15] [cursor=pointer]:
+        - /url: "#/campus/about"
+    - button "登 录" [ref=e18] [cursor=pointer]:
+      - generic [ref=e19]: 登 录
+  - generic [ref=e20]:
+    - generic [ref=e21]:
+      - generic [ref=e71]:
+        - generic [ref=e72]:
+          - img [ref=e74]
+          - textbox "搜索职位" [ref=e75]
+        - button "搜 索" [ref=e78] [cursor=pointer]:
+          - generic [ref=e79]: 搜 索
+      - generic [ref=e80]:
+        - generic [ref=e81]:
+          - generic [ref=e82] [cursor=pointer]:
+            - generic [ref=e83]:
+              - text: 职位解读
+              - img [ref=e85]:
+                - img [ref=e86]
+            - generic [ref=e88]: 算法、工程、产品、运营类职位解读，帮你更懂你！
+          - generic [ref=e90]:
+            - generic [ref=e91]:
+              - generic [ref=e92]: 职位筛选
+              - generic [ref=e93] [cursor=pointer]: 清空
+            - generic [ref=e94]:
+              - generic [ref=e95]: 招聘类型
+              - generic [ref=e98]:
+                - generic [ref=e100] [cursor=pointer]:
+                  - radio "应届生" [ref=e102]
+                  - generic [ref=e104]: 应届生
+                - generic [ref=e106] [cursor=pointer]:
+                  - radio "留用实习 question-circle 项目说明" [checked] [ref=e108]
+                  - generic [ref=e111]:
+                    - generic [ref=e112]: 留用实习
+                    - generic [ref=e113]:
+                      - img "question-circle" [ref=e114]:
+                        - img [ref=e115]
+                      - text: 项目说明
+            - generic [ref=e118]:
+              - generic [ref=e119]: 招聘项目
+              - generic [ref=e121] [cursor=pointer]:
+                - checkbox "快Star-X" [ref=e123]
+                - generic [ref=e125]: 快Star-X
+            - generic [ref=e126]:
+              - generic [ref=e127]: 职位类别
+              - tree [ref=e129]:
+                - generic:
+                  - textbox "for screen reader"
+                - generic [ref=e133]:
+                  - generic "游戏类" [ref=e138] [cursor=pointer]
+                  - generic "项目管理类" [ref=e143] [cursor=pointer]
+                  - generic "销售类" [ref=e148] [cursor=pointer]
+                  - generic [ref=e149]:
+                    - img "caret-down" [ref=e151] [cursor=pointer]:
+                      - img [ref=e152]
+                    - generic "算法类" [ref=e156] [cursor=pointer]
+                  - generic [ref=e157]:
+                    - img "caret-down" [ref=e159] [cursor=pointer]:
+                      - img [ref=e160]
+                    - generic "工程类" [ref=e164] [cursor=pointer]
+                  - generic [ref=e165]:
+                    - img "caret-down" [ref=e167] [cursor=pointer]:
+                      - img [ref=e168]
+                    - generic "产品类" [ref=e172] [cursor=pointer]
+                  - generic [ref=e173]:
+                    - img "caret-down" [ref=e175] [cursor=pointer]:
+                      - img [ref=e176]
+                    - generic "运营类" [ref=e180] [cursor=pointer]
+                  - generic "市场类" [ref=e185] [cursor=pointer]
+                  - generic "设计类" [ref=e190] [cursor=pointer]
+                  - generic "职能类" [ref=e195] [cursor=pointer]
+                  - generic "战略分析类" [ref=e200] [cursor=pointer]
+            - generic [ref=e201]:
+              - generic [ref=e202]: 工作地点
+              - generic [ref=e204]:
+                - generic [ref=e205] [cursor=pointer]:
+                  - checkbox "北京" [ref=e207]
+                  - generic [ref=e209]: 北京
+                - generic [ref=e210] [cursor=pointer]:
+                  - checkbox "杭州" [ref=e212]
+                  - generic [ref=e214]: 杭州
+                - generic [ref=e215] [cursor=pointer]:
+                  - checkbox "深圳" [ref=e217]
+                  - generic [ref=e219]: 深圳
+                - generic [ref=e220] [cursor=pointer]:
+                  - checkbox "上海" [ref=e222]
+                  - generic [ref=e224]: 上海
+                - generic [ref=e225] [cursor=pointer]:
+                  - checkbox "广州" [ref=e227]
+                  - generic [ref=e229]: 广州
+        - generic [ref=e230]:
+          - generic [ref=e231]:
+            - text: 未来第一站
+            - generic [ref=e232]: (31)
+          - generic [ref=e235]:
+            - generic [ref=e236] [cursor=pointer]:
+              - generic [ref=e237]:
+                - generic "【留用实习】大数据引擎研发工程师" [ref=e238]:
+                  - text: 【留用实习】大数据引擎研发工程师
+                  - generic [ref=e239]: 急招
+                - generic [ref=e241]:
+                  - generic [ref=e242]: 实习
+                  - generic [ref=e243]: 工程类 - 服务端
+                  - generic [ref=e244]: 北京
+                  - generic [ref=e245]: 2026-03-26 发布
+              - generic [ref=e247]:
+                - text: 查看职位
+                - img [ref=e249]:
+                  - img [ref=e250]
+              - img "background" [ref=e252]
+            - generic [ref=e253] [cursor=pointer]:
+              - generic [ref=e254]:
+                - generic "【留用实习】分布式图数据库研发工程师" [ref=e255]:
+                  - text: 【留用实习】分布式图数据库研发工程师
+                  - generic [ref=e256]: 急招
+                - generic [ref=e258]:
+                  - generic [ref=e259]: 实习
+                  - generic [ref=e260]: 工程类 - 服务端
+                  - generic [ref=e261]: 北京
+                  - generic [ref=e262]: 2026-03-13 发布
+              - generic [ref=e264]:
+                - text: 查看职位
+                - img [ref=e266]:
+                  - img [ref=e267]
+              - img "background" [ref=e269]
+            - generic [ref=e270] [cursor=pointer]:
+              - generic [ref=e271]:
+                - generic "【留用实习】大模型推理/训练引擎研发工程师" [ref=e272]:
+                  - text: 【留用实习】大模型推理/训练引擎研发工程师
+                  - generic [ref=e273]: 急招
+                - generic [ref=e275]:
+                  - generic [ref=e276]: 实习
+                  - generic [ref=e277]: 工程类 - 服务端
+                  - generic [ref=e278]: 北京
+                  - generic [ref=e279]: 2026-03-13 发布
+              - generic [ref=e281]:
+                - text: 查看职位
+                - img [ref=e283]:
+                  - img [ref=e284]
+              - img "background" [ref=e286]
+            - generic [ref=e287] [cursor=pointer]:
+              - generic [ref=e288]:
+                - generic "【留用实习】客户端开发工程师" [ref=e289]:
+                  - text: 【留用实习】客户端开发工程师
+                  - generic [ref=e290]: 急招
+                - generic [ref=e292]:
+                  - generic [ref=e293]: 实习
+                  - generic [ref=e294]: 工程类 - 客户端
+                  - generic [ref=e295]: 北京、深圳
+                  - generic [ref=e296]: 2026-04-27 发布
+              - generic [ref=e298]:
+                - text: 查看职位
+                - img [ref=e300]:
+                  - img [ref=e301]
+              - img "background" [ref=e303]
+            - generic [ref=e304] [cursor=pointer]:
+              - generic [ref=e305]:
+                - generic "【留用实习】Golang开发工程师" [ref=e306]: 【留用实习】Golang开发工程师
+                - generic [ref=e308]:
+                  - generic [ref=e309]: 实习
+                  - generic [ref=e310]: 工程类 - 服务端
+                  - generic [ref=e311]: 北京
+                  - generic [ref=e312]: 2026-04-28 发布
+              - generic [ref=e314]:
+                - text: 查看职位
+                - img [ref=e316]:
+                  - img [ref=e317]
+              - img "background" [ref=e319]
+            - generic [ref=e320] [cursor=pointer]:
+              - generic [ref=e321]:
+                - generic "【留用实习】测试开发工程师" [ref=e322]: 【留用实习】测试开发工程师
+                - generic [ref=e324]:
+                  - generic [ref=e325]: 实习
+                  - generic [ref=e326]: 工程类 - 测试测开
+                  - generic [ref=e327]: 北京、杭州、深圳
+                  - generic [ref=e328]: 2026-04-27 发布
+              - generic [ref=e330]:
+                - text: 查看职位
+                - img [ref=e332]:
+                  - img [ref=e333]
+              - img "background" [ref=e335]
+            - generic [ref=e336] [cursor=pointer]:
+              - generic [ref=e337]:
+                - generic "【留用实习】AI应用服务端开发工程师" [ref=e338]: 【留用实习】AI应用服务端开发工程师
+                - generic [ref=e340]:
+                  - generic [ref=e341]: 实习
+                  - generic [ref=e342]: 工程类 - 服务端
+                  - generic [ref=e343]: 北京
+                  - generic [ref=e344]: 2026-04-27 发布
+              - generic [ref=e346]:
+                - text: 查看职位
+                - img [ref=e348]:
+                  - img [ref=e349]
+              - img "background" [ref=e351]
+            - generic [ref=e352] [cursor=pointer]:
+              - generic [ref=e353]:
+                - generic "【留用实习】Java开发工程师" [ref=e354]: 【留用实习】Java开发工程师
+                - generic [ref=e356]:
+                  - generic [ref=e357]: 实习
+                  - generic [ref=e358]: 工程类 - 服务端
+                  - generic [ref=e359]: 北京
+                  - generic [ref=e360]: 2026-04-27 发布
+              - generic [ref=e362]:
+                - text: 查看职位
+                - img [ref=e364]:
+                  - img [ref=e365]
+              - img "background" [ref=e367]
+            - generic [ref=e368] [cursor=pointer]:
+              - generic [ref=e369]:
+                - generic "【留用实习】AI应用开发工程师" [ref=e370]: 【留用实习】AI应用开发工程师
+                - generic [ref=e372]:
+                  - generic [ref=e373]: 实习
+                  - generic [ref=e374]: 工程类 - 服务端
+                  - generic [ref=e375]: 杭州、北京
+                  - generic [ref=e376]: 2026-04-23 发布
+              - generic [ref=e378]:
+                - text: 查看职位
+                - img [ref=e380]:
+                  - img [ref=e381]
+              - img "background" [ref=e383]
+            - generic [ref=e384] [cursor=pointer]:
+              - generic [ref=e385]:
+                - generic "【留用实习】C++开发工程师" [ref=e386]: 【留用实习】C++开发工程师
+                - generic [ref=e388]:
+                  - generic [ref=e389]: 实习
+                  - generic [ref=e390]: 工程类 - 服务端
+                  - generic [ref=e391]: 北京、深圳
+                  - generic [ref=e392]: 2026-04-21 发布
+              - generic [ref=e394]:
+                - text: 查看职位
+                - img [ref=e396]:
+                  - img [ref=e397]
+              - img "background" [ref=e399]
+          - list [ref=e400]:
+            - listitem "上一页" [ref=e401]:
+              - button "left" [disabled] [ref=e402]:
+                - img "left" [ref=e403]:
+                  - img [ref=e404]
+            - listitem "1" [ref=e406] [cursor=pointer]:
+              - generic [ref=e407]: "1"
+            - listitem "2" [ref=e408] [cursor=pointer]:
+              - generic [ref=e409]: "2"
+            - listitem "3" [ref=e410] [cursor=pointer]:
+              - generic [ref=e411]: "3"
+            - listitem "4" [ref=e412] [cursor=pointer]:
+              - generic [ref=e413]: "4"
+            - listitem "下一页" [ref=e414] [cursor=pointer]:
+              - button "right" [ref=e415]:
+                - img "right" [ref=e416]:
+                  - img [ref=e417]
+    - img [ref=e420] [cursor=pointer]
+  - img "footer" [ref=e424]

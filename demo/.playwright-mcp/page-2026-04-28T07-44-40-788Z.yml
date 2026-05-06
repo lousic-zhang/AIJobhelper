@@ -1,0 +1,64 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e6]:
+      - link [ref=e8] [cursor=pointer]:
+        - /url: http://game.163.com/
+      - list [ref=e11]:
+        - listitem [ref=e12] [cursor=pointer]: 首页
+        - listitem [ref=e13] [cursor=pointer]: 人才专项
+        - listitem [ref=e15] [cursor=pointer]: 热招职位
+        - listitem [ref=e16] [cursor=pointer]: 招聘动态
+        - listitem [ref=e17] [cursor=pointer]: 映像互娱
+        - listitem [ref=e18] [cursor=pointer]: 了解互娱
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - link [ref=e23] [cursor=pointer]:
+            - /url: https://weibo.com/163yxzp?refer_flag=1001030103_&is_all=1
+          - link [ref=e25] [cursor=pointer]:
+            - /url: https://game.academy.163.com/
+        - generic [ref=e27] [cursor=pointer]: 登录
+    - generic [ref=e464]:
+      - generic [ref=e465]:
+        - generic [ref=e466]:
+          - generic [ref=e467]: 游戏研发工程师（客户端&服务端）
+          - generic [ref=e470] [cursor=pointer]: 投递职位
+        - generic [ref=e471]:
+          - generic [ref=e472]: 游戏研发类
+          - generic [ref=e474]: 广州、杭州、上海
+          - generic [ref=e476]: 2027届实习生项目
+      - generic [ref=e479]:
+        - generic [ref=e480]:
+          - generic [ref=e482]: 职位描述
+          - generic [ref=e483]: 包含游戏客户端开发 和 游戏服务器开发两个方向。 您可以： - 为不同的平台创造和开发世界一流的游戏，尤其是当前最热的移动平台； - 成为最具创造力团队的一员，和国内最顶级的游戏研发团队一起工作，解决各种挑战性问题； - 构建真实的虚拟世界，您的代码将为无数玩家带来梦幻般的体验； - 参与世界一流的游戏引擎技术研发，从客户端到服务端，跨越广阔的技术领域。
+        - generic [ref=e484]:
+          - generic [ref=e486]: 任职资格
+          - generic [ref=e487]: 我们希望您符合以下任意两条或以上的描述： - 计算机或相关专业； - 精通C/C++编程语言及其思想； - 扎实的计算机基础知识，深入理解数据结构、算法、操作系统等知识； - 良好的逻辑综合分析能力，以及强烈的解决问题的意愿； - 强烈的求知欲，和与之相适应的学习能力； - 良好的沟通能力，能清晰、准确地在团队成员中传达自己的想法； -主动拥抱AI变革，积极思考AI在工作及工作流中的应用与落地，技术上有极客精神 具备以下条件尤佳，但不是必须： - 熟悉或精通计算机图形学； - 熟悉或精通分布式系统设计； - 对常见脚本语言Lua/Python等有使用经验； - 对游戏开发相关框架/引擎有使用经验。
+    - contentinfo [ref=e284]:
+      - generic [ref=e285]:
+        - generic [ref=e286]:
+          - link [ref=e287] [cursor=pointer]:
+            - /url: https://www.163.com/
+          - link [ref=e289] [cursor=pointer]:
+            - /url: http://game.163.com/
+          - generic [ref=e291]:
+            - link "公司简介" [ref=e292] [cursor=pointer]:
+              - /url: http://gb.corp.163.com/gb/about/overview.html
+            - link "客户服务" [ref=e293] [cursor=pointer]:
+              - /url: https://help.mail.163.com/service.html
+            - link "网易集团隐私政策及儿童个人信息保护规则" [ref=e294] [cursor=pointer]:
+              - /url: http://gb.corp.163.com/gb/legal.html
+            - link "网易游戏" [ref=e295] [cursor=pointer]:
+              - /url: http://game.163.com/about/
+            - link "商务合作" [ref=e296] [cursor=pointer]:
+              - /url: http://game.163.com/contact/business.html
+            - link "联系我们" [ref=e297] [cursor=pointer]:
+              - /url: http://game.163.com/contact/business.html
+          - generic [ref=e298]:
+            - text: 网易公司版权所有
+            - generic [ref=e299]: ©1997-2026
+            - link "中国网络游戏版权保护联盟举报中心" [ref=e300] [cursor=pointer]:
+              - /url: http://www.cogcpa.org/
+            - link "ICP备案： 粤B2-20090191-18" [ref=e301] [cursor=pointer]:
+              - /url: http://beian.miit.gov.cn/
+        - generic [ref=e303]: 关注我们
+  - text:    

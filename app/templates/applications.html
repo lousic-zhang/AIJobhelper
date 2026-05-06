@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero">
+    <h1>投递记录</h1>
+    <p>你可以手动维护，也可以通过智能求职客服自动新增和更新投递流程。</p>
+</section>
+
+<section class="grid two">
+    <article class="panel">
+        <h2>新增投递记录</h2>
+        <form id="application-form" class="form">
+            <label>公司<input name="company" required></label>
+            <label>岗位<input name="position" required></label>
+            <label>渠道<input name="channel" value="牛客"></label>
+            <label>状态
+                <select name="status">
+                    {% for status in statuses %}
+                    <option value="{{ status }}">{{ status }}</option>
+                    {% endfor %}
+                </select>
+            </label>
+            <label>投递时间<input name="delivery_time" placeholder="2026-04-25T18:30:00"></label>
+            <label>截止时间<input name="deadline" placeholder="2026-04-30T23:59:00"></label>
+            <label>备注<textarea name="note" rows="4"></textarea></label>
+            <button class="button" type="submit">新增记录</button>
+        </form>
+        <div id="application-form-result" class="hint"></div>
+    </article>
+
+    <article class="panel">
+        <h2>筛选</h2>
+        <form method="get" action="/applications" class="form compact">
+            <label>公司<input name="company" value="{{ filters.company }}"></label>
+            <label>状态
+                <select name="status">
+                    <option value="">全部</option>
+                    {% for status in statuses %}
+                    <option value="{{ status }}" {% if filters.status == status %}selected{% endif %}>{{ status }}</option>
+                    {% endfor %}
+                </select>
+            </label>
+            <button class="button secondary" type="submit">筛选</button>
+        </form>
+    </article>
+</section>
+
+<section class="panel">
+    <h2>记录列表</h2>
+    <div class="stack">
+        {% for item in applications %}
+        <article class="subpanel application-card">
+            <div class="row between">
+                <div>
+                    <h3>{{ item.company }} / {{ item.position }}</h3>
+                    <p class="muted">渠道：{{ item.channel }} | 投递时间：{{ item.delivery_time or "未填写" }}</p>
+                </div>
+                <span class="status">{{ item.status }}</span>
+            </div>
+            <p>{{ item.note or "暂无备注" }}</p>
+            <form class="inline-status-form" data-id="{{ item.id }}">
+                <select name="status">
+                    {% for status in statuses %}
+                    <option value="{{ status }}" {% if item.status == status %}selected{% endif %}>{{ status }}</option>
+                    {% endfor %}
+                </select>
+                <input name="note" placeholder="更新备注">
+                <button class="button secondary" type="submit">更新状态</button>
+            </form>
+        </article>
+        {% else %}
+        <p class="muted">还没有投递记录。</p>
+        {% endfor %}
+    </div>
+</section>
+
+<script src="/static/applications.js"></script>
+{% endblock %}

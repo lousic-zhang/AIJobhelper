@@ -1,0 +1,144 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero">
+    <h1>个人简历</h1>
+    <p>这里展示智能客服最近一次解析成功的当前简历。</p>
+</section>
+
+{% if resume %}
+<section class="grid two">
+    <article class="panel">
+        <h2>基础信息</h2>
+        <div class="kv"><span>文件名</span><strong>{{ resume.file_name }}</strong></div>
+        <div class="kv"><span>上传时间</span><strong>{{ resume.uploaded_at }}</strong></div>
+        <div class="kv"><span>姓名</span><strong>{{ resume.parsed_profile.name or "未识别" }}</strong></div>
+        <div class="kv"><span>目标岗位</span><strong>{{ resume.parsed_profile.target_role or "未识别" }}</strong></div>
+        <div class="kv"><span>学校</span><strong>{{ resume.parsed_profile.school or "未识别" }}</strong></div>
+        <div class="kv"><span>最高学历</span><strong>{{ resume.parsed_profile.highest_degree or "未识别" }}</strong></div>
+        <div class="kv"><span>电话</span><strong>{{ resume.parsed_profile.contact.phone or "未填写" }}</strong></div>
+        <div class="kv"><span>邮箱</span><strong>{{ resume.parsed_profile.contact.email or "未填写" }}</strong></div>
+        <div class="kv"><span>地点</span><strong>{{ resume.parsed_profile.contact.location or "未填写" }}</strong></div>
+        <div class="kv"><span>GitHub</span><strong>{{ resume.parsed_profile.contact.github or "未填写" }}</strong></div>
+        <div class="kv"><span>博客</span><strong>{{ resume.parsed_profile.contact.blog or "未填写" }}</strong></div>
+    </article>
+    <article class="panel">
+        <h2>个人总结</h2>
+        <p>{{ resume.parsed_profile.summary or "暂无个人总结" }}</p>
+        <h2>技能标签</h2>
+        <div class="tags">
+            {% for skill in resume.parsed_profile.skills %}
+            <span class="tag">{{ skill }}</span>
+            {% else %}
+            <span class="muted">还没有识别到技能标签</span>
+            {% endfor %}
+        </div>
+        <h2>亮点总结</h2>
+        <ul class="list">
+            {% for item in resume.parsed_profile.highlights %}
+            <li>{{ item }}</li>
+            {% else %}
+            <li class="muted">还没有识别到亮点</li>
+            {% endfor %}
+        </ul>
+    </article>
+</section>
+
+<section class="panel">
+    <h2>教育经历</h2>
+    <div class="stack">
+        {% for item in resume.parsed_profile.education %}
+        <article class="subpanel">
+            <h3>{{ item.school or "未识别学校" }}</h3>
+            <p>{{ item.degree or "未识别学历" }}{% if item.major %} / {{ item.major }}{% endif %}</p>
+            <p class="muted">{{ item.duration or "未填写时间" }}</p>
+        </article>
+        {% else %}
+        <p class="muted">暂无教育经历数据</p>
+        {% endfor %}
+    </div>
+</section>
+
+<section class="panel">
+    <h2>项目经历</h2>
+    <div class="stack">
+        {% for project in resume.parsed_profile.projects %}
+        <article class="subpanel">
+            <h3>{{ project.name or "未命名项目" }}</h3>
+            <p>{{ project.description or "暂无项目描述" }}</p>
+            <p class="muted">
+                {% if project.role %}角色：{{ project.role }}{% endif %}
+                {% if project.role and project.duration %} | {% endif %}
+                {% if project.duration %}时间：{{ project.duration }}{% endif %}
+            </p>
+            <div class="tags">
+                {% for skill in project.tech_stack %}
+                <span class="tag">{{ skill }}</span>
+                {% endfor %}
+            </div>
+            <ul class="list">
+                {% for item in project.highlights %}
+                <li>{{ item }}</li>
+                {% else %}
+                <li class="muted">暂无项目亮点</li>
+                {% endfor %}
+            </ul>
+        </article>
+        {% else %}
+        <p class="muted">暂无项目经历</p>
+        {% endfor %}
+    </div>
+</section>
+
+<section class="panel">
+    <h2>实习经历</h2>
+    <div class="stack">
+        {% for item in resume.parsed_profile.internships %}
+        <article class="subpanel">
+            <h3>{{ item.company or "未识别公司" }}{% if item.role %} / {{ item.role }}{% endif %}</h3>
+            <p class="muted">{{ item.duration or "未填写时间" }}</p>
+            <p>{{ item.summary or "暂无工作内容总结" }}</p>
+            <ul class="list">
+                {% for point in item.highlights %}
+                <li>{{ point }}</li>
+                {% else %}
+                <li class="muted">暂无实习亮点</li>
+                {% endfor %}
+            </ul>
+        </article>
+        {% else %}
+        <p class="muted">暂无实习经历</p>
+        {% endfor %}
+    </div>
+</section>
+
+<section class="grid two">
+    <article class="panel">
+        <h2>证书</h2>
+        <ul class="list">
+            {% for item in resume.parsed_profile.certifications %}
+            <li>{{ item }}</li>
+            {% else %}
+            <li class="muted">暂无证书</li>
+            {% endfor %}
+        </ul>
+    </article>
+    <article class="panel">
+        <h2>奖项</h2>
+        <ul class="list">
+            {% for item in resume.parsed_profile.awards %}
+            <li>{{ item }}</li>
+            {% else %}
+            <li class="muted">暂无奖项</li>
+            {% endfor %}
+        </ul>
+    </article>
+</section>
+{% else %}
+<section class="panel empty">
+    <h2>还没有当前简历</h2>
+    <p class="muted">先去智能求职客服页面上传并解析一份 PDF 简历，我会把结构化结果同步到这里。</p>
+    <a class="button" href="/chat">去上传简历</a>
+</section>
+{% endif %}
+{% endblock %}

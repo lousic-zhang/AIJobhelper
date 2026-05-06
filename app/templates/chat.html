@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero">
+    <h1>最强智能求职客服</h1>
+    <p>支持多轮会话记忆、简历上传解析、投递记录管理，并且可以把你自然引导到岗位知识库继续深挖。</p>
+</section>
+
+<section class="chat-layout">
+    <aside class="chat-sidebar panel">
+        <div class="row between">
+            <h2>聊天列表</h2>
+            <button id="new-chat-btn" class="button secondary" type="button">新增聊天</button>
+        </div>
+        <div id="chat-session-list" class="chat-session-list">
+            {% for session in chat_sessions %}
+            <div
+                class="chat-session-item {% if session.id == chat_id %}active{% endif %}"
+                data-chat-id="{{ session.id }}"
+            >
+                <button class="chat-session-main" type="button" data-chat-id="{{ session.id }}">
+                    <span>{{ session.title }}</span>
+                </button>
+                <div class="chat-session-actions">
+                    <button class="chat-session-action rename" type="button" data-chat-id="{{ session.id }}">重命名</button>
+                    <button class="chat-session-action delete" type="button" data-chat-id="{{ session.id }}">删除</button>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </aside>
+
+    <div class="chat-workspace">
+        <section class="grid two">
+            <article class="panel">
+                <h2>上传简历</h2>
+                <form id="resume-upload-form" class="form">
+                    <input type="hidden" name="chat_id" value="{{ chat_id }}">
+                    <label>
+                        <span>PDF 简历</span>
+                        <input type="file" name="file" accept=".pdf" required>
+                    </label>
+                    <button class="button" type="submit">上传并解析</button>
+                </form>
+                <div id="resume-upload-result" class="hint"></div>
+            </article>
+
+            <article class="panel">
+                <h2>快捷示例</h2>
+                <div class="tags">
+                    <button class="tag example-btn" data-text="帮我总结一下当前简历">总结当前简历</button>
+                    <button class="tag example-btn" data-text="我刚投了腾讯后端开发实习，帮我记一条投递记录">新增投递</button>
+                    <button class="tag example-btn" data-text="帮我查一下最近的投递记录">查询投递</button>
+                    <button class="tag example-btn" data-text="把腾讯后端开发实习的状态更新为 interview">更新状态</button>
+                    <button class="tag example-btn" data-text="带我去做一个快手后端岗位知识库">知识库引导</button>
+                </div>
+            </article>
+        </section>
+
+        <section class="panel chat-panel">
+            <div id="chat-log" class="chat-log"></div>
+            <form id="chat-form" class="chat-form">
+                <input type="hidden" name="chat_id" value="{{ chat_id }}">
+                <textarea
+                    name="message"
+                    rows="4"
+                    placeholder="输入你的问题，比如：帮我查一下最近投了哪些公司"
+                    required
+                ></textarea>
+                <button class="button" type="submit">发送</button>
+            </form>
+        </section>
+    </div>
+</section>
+
+<script src="/static/chat.js?v=20260426b"></script>
+{% endblock %}

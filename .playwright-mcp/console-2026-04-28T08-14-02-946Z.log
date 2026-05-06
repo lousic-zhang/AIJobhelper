@@ -1,0 +1,14 @@
+[     117ms] [WARNING] [warn 102] user_id 为空，请确定是否传入，如果是异步通过 updateCommonPackage 接口传入，可以忽略该提示! @ https://s2-11760.kwimgs.com/kos/nlav11760/dev/careers-campus/20260416-205653/assets/js/antd.e02bfccb.chunk.js:0
+[     131ms] [LOG] 「你好，未来的快手开发者。」 @ https://s2-11760.kwimgs.com/kos/nlav11760/dev/careers-campus/20260416-205653/assets/js/main.e3c87842.js:0
+[     131ms] [LOG] 我猜你是那种连 console.log 都不放过的人。 @ https://s2-11760.kwimgs.com/kos/nlav11760/dev/careers-campus/20260416-205653/assets/js/main.e3c87842.js:0
+[     131ms] [LOG] 我喜欢这样的你。 @ https://s2-11760.kwimgs.com/kos/nlav11760/dev/careers-campus/20260416-205653/assets/js/main.e3c87842.js:0
+[     131ms] [LOG] 🪄 你已经触发了隐藏彩蛋。 @ https://s2-11760.kwimgs.com/kos/nlav11760/dev/careers-campus/20260416-205653/assets/js/main.e3c87842.js:0
+[     131ms] [LOG] 🎁 等你毕业入职后，告诉 HR 这个暗号：devUnlock('console.f12.devFriend') @ https://s2-11760.kwimgs.com/kos/nlav11760/dev/careers-campus/20260416-205653/assets/js/main.e3c87842.js:0
+[     131ms] [LOG] 我们会为你送上一枚专属徽章和礼物。 @ https://s2-11760.kwimgs.com/kos/nlav11760/dev/careers-campus/20260416-205653/assets/js/main.e3c87842.js:0
+[     132ms] [LOG] 🎯 提前行动？在投递简历时填写内推码：campusks666 @ https://s2-11760.kwimgs.com/kos/nlav11760/dev/careers-campus/20260416-205653/assets/js/main.e3c87842.js:0
+[     132ms] [LOG] 可能会触发另一个世界线的优先通道。🤫 @ https://s2-11760.kwimgs.com/kos/nlav11760/dev/careers-campus/20260416-205653/assets/js/main.e3c87842.js:0
+[     132ms] [LOG] 👇 如果你正在找实习或校招岗位： @ https://s2-11760.kwimgs.com/kos/nlav11760/dev/careers-campus/20260416-205653/assets/js/main.e3c87842.js:0
+[     132ms] [LOG] https://campus.kuaishou.cn @ https://s2-11760.kwimgs.com/kos/nlav11760/dev/careers-campus/20260416-205653/assets/js/main.e3c87842.js:0
+[     132ms] [LOG] 快手 · 技术 · 招人中。 @ https://s2-11760.kwimgs.com/kos/nlav11760/dev/careers-campus/20260416-205653/assets/js/main.e3c87842.js:0
+[     177ms] [WARNING] Manifest: property 'start_url' ignored, should be same origin as document. @ https://s2-11760.kwimgs.com/kos/nlav11760/dev/careers-campus/20260416-205653/assets/manifest.json:0
+[     750ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://campus.kuaishou.cn/recruit/campus/e/api/users/user/info:0

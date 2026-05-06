@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero">
+    <h1>注册</h1>
+    <p>创建一个账号，把你的简历、投递记录、岗位知识库和对话都存成自己的数据。</p>
+</section>
+
+<section class="panel auth-panel">
+    {% if error %}
+    <p class="error-text">{{ error }}</p>
+    {% endif %}
+    <form class="form" method="post" action="/auth/register">
+        <label>邮箱<input type="email" name="email" required></label>
+        <label>昵称<input type="text" name="nickname" required></label>
+        <label>密码<input type="password" name="password" required></label>
+        <label>确认密码<input type="password" name="confirm_password" required></label>
+        <button class="button" type="submit">注册并登录</button>
+    </form>
+    <p class="hint">已经有账号了？<a href="/login">去登录</a></p>
+</section>
+{% endblock %}

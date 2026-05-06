@@ -1,0 +1,64 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e6]:
+      - link [ref=e8] [cursor=pointer]:
+        - /url: http://game.163.com/
+      - list [ref=e11]:
+        - listitem [ref=e12] [cursor=pointer]: 首页
+        - listitem [ref=e13] [cursor=pointer]: 人才专项
+        - listitem [ref=e15] [cursor=pointer]: 热招职位
+        - listitem [ref=e16] [cursor=pointer]: 招聘动态
+        - listitem [ref=e17] [cursor=pointer]: 映像互娱
+        - listitem [ref=e18] [cursor=pointer]: 了解互娱
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - link [ref=e23] [cursor=pointer]:
+            - /url: https://weibo.com/163yxzp?refer_flag=1001030103_&is_all=1
+          - link [ref=e25] [cursor=pointer]:
+            - /url: https://game.academy.163.com/
+        - generic [ref=e27] [cursor=pointer]: 登录
+    - generic [ref=e567]:
+      - generic [ref=e568]:
+        - generic [ref=e569]:
+          - generic [ref=e570]: AI Agent工程师（引擎方向）
+          - generic [ref=e572] [cursor=pointer]: 投递职位
+        - generic [ref=e573]:
+          - generic [ref=e574]: 游戏研发类
+          - generic [ref=e576]: 广州
+          - generic [ref=e578]: 2027届实习生项目
+      - generic [ref=e581]:
+        - generic [ref=e582]:
+          - generic [ref=e584]: 职位描述
+          - generic [ref=e585]: 1.负责AI自动化Agent需求梳理、方案设计与落地实施，重点赋能游戏的研发，内容生产与运营全流程； 2.基于大模型搭建智能体，实现引擎开发，游戏设计、内容生成、数据分析等场景的自主规划、工具调用与业务流程自动化； 3.对接内部系统，完成Agent能力闭环，提升游戏研发效率与创意迭代速度； 4.构建并维护游戏设计知识库与RAG能力，为Agent提供精准的游戏业务上下文，赋能创意生成与决策辅助。 快速构建Agent原型，验证技术可行性，并基于主流框架搭建完整的Agent或Workflow。
+        - generic [ref=e586]:
+          - generic [ref=e588]: 任职资格
+          - generic [ref=e589]: 1.本科及以上学历，计算机、软件、自动化、AI相关专业优先； 2.熟悉主流大模型及Agent工作原理； 3.逻辑清晰，沟通顺畅，具备良好的文档撰写与方案汇报能力； 4.计算机基础良好，有代码能力，能够检验agent结果； 5.业务理解能力强，有游戏引擎的使用和开发经验优先。
+    - contentinfo [ref=e284]:
+      - generic [ref=e285]:
+        - generic [ref=e286]:
+          - link [ref=e287] [cursor=pointer]:
+            - /url: https://www.163.com/
+          - link [ref=e289] [cursor=pointer]:
+            - /url: http://game.163.com/
+          - generic [ref=e291]:
+            - link "公司简介" [ref=e292] [cursor=pointer]:
+              - /url: http://gb.corp.163.com/gb/about/overview.html
+            - link "客户服务" [ref=e293] [cursor=pointer]:
+              - /url: https://help.mail.163.com/service.html
+            - link "网易集团隐私政策及儿童个人信息保护规则" [ref=e294] [cursor=pointer]:
+              - /url: http://gb.corp.163.com/gb/legal.html
+            - link "网易游戏" [ref=e295] [cursor=pointer]:
+              - /url: http://game.163.com/about/
+            - link "商务合作" [ref=e296] [cursor=pointer]:
+              - /url: http://game.163.com/contact/business.html
+            - link "联系我们" [ref=e297] [cursor=pointer]:
+              - /url: http://game.163.com/contact/business.html
+          - generic [ref=e298]:
+            - text: 网易公司版权所有
+            - generic [ref=e299]: ©1997-2026
+            - link "中国网络游戏版权保护联盟举报中心" [ref=e300] [cursor=pointer]:
+              - /url: http://www.cogcpa.org/
+            - link "ICP备案： 粤B2-20090191-18" [ref=e301] [cursor=pointer]:
+              - /url: http://beian.miit.gov.cn/
+        - generic [ref=e303]: 关注我们
+  - text:    

@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="panel knowledge-layout" data-selected-knowledge-base-id="{{ selected_knowledge_base_id }}">
+    <aside class="knowledge-sidebar">
+        <div class="panel-header">
+            <div>
+                <h2>岗位知识库</h2>
+                <p class="muted">一个知识库对应一个岗位。</p>
+            </div>
+        </div>
+
+        <form id="knowledge-create-form" class="form">
+            <label>
+                <span>新知识库名称</span>
+                <input type="text" name="name" placeholder="例如：快手后端开发实习生">
+            </label>
+            <button type="submit">创建知识库</button>
+        </form>
+        <div id="knowledge-create-result" class="hint"></div>
+
+        <div id="knowledge-base-list" class="knowledge-base-list">
+            {% if knowledge_bases %}
+                {% for item in knowledge_bases %}
+                <button
+                    class="knowledge-base-item {% if item.id == selected_knowledge_base_id %}active{% endif %}"
+                    data-id="{{ item.id }}"
+                    type="button"
+                >
+                    <strong>{{ item.name }}</strong>
+                    <span>{{ item.status }}</span>
+                </button>
+                {% endfor %}
+            {% else %}
+                <div class="empty-block">还没有知识库，先创建一个岗位知识库。</div>
+            {% endif %}
+        </div>
+    </aside>
+
+    <section class="knowledge-workspace">
+        <div class="panel knowledge-meta">
+            <div>
+                <h2 id="knowledge-title">请选择一个知识库</h2>
+                <p id="knowledge-status" class="muted">创建后即可导入岗位链接。</p>
+            </div>
+        </div>
+
+        <div class="panel">
+            <h3>导入岗位链接</h3>
+            <form id="knowledge-ingest-form" class="form compact">
+                <label>
+                    <span>岗位 URL</span>
+                    <input type="url" name="url" placeholder="https://campus.example.com/job/123">
+                </label>
+                <button type="submit">导入到当前知识库</button>
+            </form>
+            <div id="knowledge-ingest-result" class="hint"></div>
+        </div>
+
+        <section class="panel chat-panel">
+            <div id="knowledge-chat-log" class="chat-log"></div>
+            <form id="knowledge-chat-form" class="chat-form">
+                <textarea name="message" rows="3" placeholder="围绕当前岗位知识库继续提问，比如：这个岗位和我当前简历的匹配度怎么样？"></textarea>
+                <button type="submit">发送</button>
+            </form>
+        </section>
+    </section>
+</section>
+
+<script src="/static/knowledge.js?v=20260426b"></script>
+{% endblock %}

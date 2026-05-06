@@ -1,0 +1,64 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e6]:
+      - link [ref=e8] [cursor=pointer]:
+        - /url: http://game.163.com/
+      - list [ref=e11]:
+        - listitem [ref=e12] [cursor=pointer]: 首页
+        - listitem [ref=e13] [cursor=pointer]: 人才专项
+        - listitem [ref=e15] [cursor=pointer]: 热招职位
+        - listitem [ref=e16] [cursor=pointer]: 招聘动态
+        - listitem [ref=e17] [cursor=pointer]: 映像互娱
+        - listitem [ref=e18] [cursor=pointer]: 了解互娱
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - link [ref=e23] [cursor=pointer]:
+            - /url: https://weibo.com/163yxzp?refer_flag=1001030103_&is_all=1
+          - link [ref=e25] [cursor=pointer]:
+            - /url: https://game.academy.163.com/
+        - generic [ref=e27] [cursor=pointer]: 登录
+    - generic [ref=e592]:
+      - generic [ref=e593]:
+        - generic [ref=e594]:
+          - generic [ref=e595]: 图形开发工程师
+          - generic [ref=e597] [cursor=pointer]: 投递职位
+        - generic [ref=e598]:
+          - generic [ref=e599]: 游戏研发类
+          - generic [ref=e601]: 广州、杭州、上海
+          - generic [ref=e603]: 2027届实习生项目
+      - generic [ref=e606]:
+        - generic [ref=e607]:
+          - generic [ref=e609]: 职位描述
+          - generic [ref=e610]: 您可以： - 驱动视觉技术创新：研发实时光追、动态全局光照、超写实材质系统等前沿图形技术，定义下一代游戏画面标准； - 探索跨平台（PC/移动/主机）渲染方案，确保全设备玩家获得一致的沉浸式体验； - 技术前瞻与应用落地：结合公司图形学研究成果，推动AI与渲染技术的融合创新。
+        - generic [ref=e611]:
+          - generic [ref=e613]: 任职资格
+          - generic [ref=e614]: 我们希望您具备以下条件： - 计算机视觉或图形学等相关研究方向； - 有扎实的c++基础； 有良好的图形学和数学基础； - 熟悉AAA级游戏中常见的渲染技术，并对某一领域有深入理解，比如全局光照、粒子、材质表现、性能优化； - 有一定debug和性能分析能力。 具备以下条件为加分项： - 在图形学顶会（SIGGRAPH/CVPR等）发表论文，或具备神经渲染、物理模拟等AI+图形项目经验； - 热爱游戏，对视觉表现有极致追求。
+    - contentinfo [ref=e284]:
+      - generic [ref=e285]:
+        - generic [ref=e286]:
+          - link [ref=e287] [cursor=pointer]:
+            - /url: https://www.163.com/
+          - link [ref=e289] [cursor=pointer]:
+            - /url: http://game.163.com/
+          - generic [ref=e291]:
+            - link "公司简介" [ref=e292] [cursor=pointer]:
+              - /url: http://gb.corp.163.com/gb/about/overview.html
+            - link "客户服务" [ref=e293] [cursor=pointer]:
+              - /url: https://help.mail.163.com/service.html
+            - link "网易集团隐私政策及儿童个人信息保护规则" [ref=e294] [cursor=pointer]:
+              - /url: http://gb.corp.163.com/gb/legal.html
+            - link "网易游戏" [ref=e295] [cursor=pointer]:
+              - /url: http://game.163.com/about/
+            - link "商务合作" [ref=e296] [cursor=pointer]:
+              - /url: http://game.163.com/contact/business.html
+            - link "联系我们" [ref=e297] [cursor=pointer]:
+              - /url: http://game.163.com/contact/business.html
+          - generic [ref=e298]:
+            - text: 网易公司版权所有
+            - generic [ref=e299]: ©1997-2026
+            - link "中国网络游戏版权保护联盟举报中心" [ref=e300] [cursor=pointer]:
+              - /url: http://www.cogcpa.org/
+            - link "ICP备案： 粤B2-20090191-18" [ref=e301] [cursor=pointer]:
+              - /url: http://beian.miit.gov.cn/
+        - generic [ref=e303]: 关注我们
+  - text:    

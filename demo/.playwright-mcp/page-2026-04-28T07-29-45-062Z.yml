@@ -1,0 +1,241 @@
+- generic [ref=e4]:
+  - generic [ref=e6]:
+    - link [ref=e8] [cursor=pointer]:
+      - /url: http://game.163.com/
+    - list [ref=e11]:
+      - listitem [ref=e12] [cursor=pointer]: 首页
+      - listitem [ref=e13] [cursor=pointer]: 人才专项
+      - listitem [ref=e15] [cursor=pointer]: 热招职位
+      - listitem [ref=e16] [cursor=pointer]: 招聘动态
+      - listitem [ref=e17] [cursor=pointer]: 映像互娱
+      - listitem [ref=e18] [cursor=pointer]: 了解互娱
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - link [ref=e23] [cursor=pointer]:
+          - /url: https://weibo.com/163yxzp?refer_flag=1001030103_&is_all=1
+        - link [ref=e25] [cursor=pointer]:
+          - /url: https://game.academy.163.com/
+      - generic [ref=e27] [cursor=pointer]: 登录
+  - generic [ref=e30]:
+    - generic [ref=e32]:
+      - tablist [ref=e33]:
+        - generic [ref=e34]:
+          - generic:
+            - generic:
+              - generic: 
+          - generic:
+            - generic:
+              - generic: 
+          - generic [ref=e38]:
+            - tab "网易互娱2027届实习生项目" [selected] [ref=e39] [cursor=pointer]
+            - tab "网易互娱2026届校园招聘" [ref=e40] [cursor=pointer]
+            - tab "艺术火花轻挑战赛（2026春）" [ref=e41] [cursor=pointer]
+      - generic:
+        - tabpanel
+    - generic [ref=e46]:
+      - generic [ref=e48]: 网易互娱2027届实习生项目
+      - generic [ref=e49]: 毕业时间：2026年9月-2027年8月 *中国大陆（内地）以毕业证时间为准，中国港澳台及海外地区以学位证时间为准
+      - generic [ref=e50]:
+        - generic [ref=e51]: 实习转正率超高、超多岗位HC、多项目方向直招、入职时间灵活可选，网易互娱等你加入
+        - generic [ref=e52] [cursor=pointer]: 详细介绍 >
+    - textbox "输入职位关键词" [ref=e58]
+    - generic [ref=e60]:
+      - generic [ref=e61]:
+        - generic [ref=e63]:
+          - generic [ref=e64]:
+            - generic [ref=e65]: 职位类型
+            - generic [ref=e66]:
+              - generic [ref=e68] [cursor=pointer]: 全部
+              - generic [ref=e70] [cursor=pointer]: 游戏策划类
+              - generic [ref=e72] [cursor=pointer]: 游戏研发与技术类
+              - generic [ref=e74] [cursor=pointer]: 艺术&设计类
+              - generic [ref=e76] [cursor=pointer]: 用户体验类
+              - generic [ref=e78] [cursor=pointer]: 产品策划类
+              - generic [ref=e80] [cursor=pointer]: 市场渠道类
+              - generic [ref=e82] [cursor=pointer]: 项目管理类
+          - generic [ref=e83]:
+            - generic [ref=e84]: 职位方向
+            - generic [ref=e87] [cursor=pointer]: 全部
+          - generic [ref=e88]:
+            - generic [ref=e89]: 工作城市
+            - generic [ref=e90]:
+              - generic [ref=e92] [cursor=pointer]: 全部
+              - generic [ref=e94] [cursor=pointer]: 广州
+              - generic [ref=e96] [cursor=pointer]: 杭州
+              - generic [ref=e98] [cursor=pointer]: 上海
+          - generic [ref=e99]:
+            - generic [ref=e100]: 高需职位
+            - generic [ref=e101]:
+              - generic [ref=e103] [cursor=pointer]: 游戏玩家
+              - generic [ref=e105] [cursor=pointer]: 设计达人
+              - generic [ref=e107] [cursor=pointer]: 创意鬼才
+              - generic [ref=e109] [cursor=pointer]: 造物大神
+              - generic [ref=e111] [cursor=pointer]: 技术极客
+              - generic [ref=e113] [cursor=pointer]: 运营达人
+              - generic [ref=e115] [cursor=pointer]: 专业不限
+        - generic [ref=e117]: 全部职位
+        - generic [ref=e118]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: 职位名称
+            - generic [ref=e121]: 职位类型
+            - generic [ref=e122]: 工作城市
+            - generic [ref=e123]: 发布时间
+          - generic [ref=e124] [cursor=pointer]:
+            - generic [ref=e125]:
+              - generic "游戏设计师（文案）" [ref=e126]
+              - generic [ref=e128]: HOT
+            - generic "策划类-游戏策划类" [ref=e130]:
+              - generic [ref=e131]: 策划类-游戏策划类
+            - generic "广州、杭州、上海" [ref=e132]:
+              - generic [ref=e133]: 广州、杭州、上海
+            - generic [ref=e134]: 2026-01-12
+          - generic [ref=e135] [cursor=pointer]:
+            - generic [ref=e136]:
+              - generic "游戏设计师（关卡/系统/数值/战斗）" [ref=e137]
+              - generic [ref=e139]: HOT
+            - generic "策划类-游戏策划类" [ref=e141]:
+              - generic [ref=e142]: 策划类-游戏策划类
+            - generic "广州、杭州、上海" [ref=e143]:
+              - generic [ref=e144]: 广州、杭州、上海
+            - generic [ref=e145]: 2026-01-12
+          - generic [ref=e146] [cursor=pointer]:
+            - generic [ref=e147]:
+              - generic "游戏研发工程师（客户端&服务端）" [ref=e148]
+              - generic [ref=e150]: HOT
+            - generic "游戏研发类-游戏研发与技术类" [ref=e152]:
+              - generic [ref=e153]: 游戏研发类-游戏研发与技术类
+            - generic "广州、杭州、上海" [ref=e154]:
+              - generic [ref=e155]: 广州、杭州、上海
+            - generic [ref=e156]: 2026-01-12
+          - generic [ref=e157] [cursor=pointer]:
+            - generic [ref=e158]:
+              - generic "游戏特效设计师" [ref=e159]
+              - generic [ref=e161]: HOT
+            - generic "游戏美术类-艺术&设计类" [ref=e163]:
+              - generic [ref=e164]: 游戏美术类-艺术&设计类
+            - generic "广州、杭州、上海" [ref=e165]:
+              - generic [ref=e166]: 广州、杭州、上海
+            - generic [ref=e167]: 2026-01-09
+          - generic [ref=e168] [cursor=pointer]:
+            - generic [ref=e169]:
+              - generic "游戏动画设计师" [ref=e170]
+              - generic [ref=e172]: HOT
+            - generic "游戏美术类-艺术&设计类" [ref=e174]:
+              - generic [ref=e175]: 游戏美术类-艺术&设计类
+            - generic "广州、杭州" [ref=e176]:
+              - generic [ref=e177]: 广州、杭州
+            - generic [ref=e178]: 2026-01-09
+          - generic [ref=e179] [cursor=pointer]:
+            - generic [ref=e180]:
+              - generic "游戏角色原画设计师" [ref=e181]
+              - generic [ref=e183]: HOT
+            - generic "游戏美术类-艺术&设计类" [ref=e185]:
+              - generic [ref=e186]: 游戏美术类-艺术&设计类
+            - generic "广州、杭州、上海" [ref=e187]:
+              - generic [ref=e188]: 广州、杭州、上海
+            - generic [ref=e189]: 2026-01-09
+          - generic [ref=e190] [cursor=pointer]:
+            - generic "游戏设计师（AI+策划）" [ref=e192]
+            - generic "策划类-游戏策划类" [ref=e193]:
+              - generic [ref=e194]: 策划类-游戏策划类
+            - generic "广州、杭州、上海" [ref=e195]:
+              - generic [ref=e196]: 广州、杭州、上海
+            - generic [ref=e197]: 2026-04-27
+          - generic [ref=e198] [cursor=pointer]:
+            - generic "游戏设计师（任务策划）" [ref=e200]
+            - generic "策划类-游戏策划类" [ref=e201]:
+              - generic [ref=e202]: 策划类-游戏策划类
+            - generic "广州、杭州、上海" [ref=e203]:
+              - generic [ref=e204]: 广州、杭州、上海
+            - generic [ref=e205]: 2026-01-12
+          - generic [ref=e206] [cursor=pointer]:
+            - generic "游戏设计师（运营策划）" [ref=e208]
+            - generic "策划类-游戏策划类" [ref=e209]:
+              - generic [ref=e210]: 策划类-游戏策划类
+            - generic "广州、杭州、上海" [ref=e211]:
+              - generic [ref=e212]: 广州、杭州、上海
+            - generic [ref=e213]: 2026-01-12
+          - generic [ref=e214] [cursor=pointer]:
+            - generic "游戏设计师（技术策划）" [ref=e216]
+            - generic "策划类-游戏策划类" [ref=e217]:
+              - generic [ref=e218]: 策划类-游戏策划类
+            - generic "广州、杭州、上海" [ref=e219]:
+              - generic [ref=e220]: 广州、杭州、上海
+            - generic [ref=e221]: 2026-01-12
+          - generic [ref=e222] [cursor=pointer]:
+            - generic "游戏设计师（关卡策划）" [ref=e224]
+            - generic "策划类-游戏策划类" [ref=e225]:
+              - generic [ref=e226]: 策划类-游戏策划类
+            - generic "广州、杭州、上海" [ref=e227]:
+              - generic [ref=e228]: 广州、杭州、上海
+            - generic [ref=e229]: 2026-01-12
+          - generic [ref=e230] [cursor=pointer]:
+            - generic "游戏设计师（战斗策划）" [ref=e232]
+            - generic "策划类-游戏策划类" [ref=e233]:
+              - generic [ref=e234]: 策划类-游戏策划类
+            - generic "广州、杭州、上海" [ref=e235]:
+              - generic [ref=e236]: 广州、杭州、上海
+            - generic [ref=e237]: 2026-01-12
+          - generic [ref=e238] [cursor=pointer]:
+            - generic "游戏设计师（数值策划）" [ref=e240]
+            - generic "策划类-游戏策划类" [ref=e241]:
+              - generic [ref=e242]: 策划类-游戏策划类
+            - generic "广州、杭州、上海" [ref=e243]:
+              - generic [ref=e244]: 广州、杭州、上海
+            - generic [ref=e245]: 2026-01-12
+          - generic [ref=e246] [cursor=pointer]:
+            - generic "游戏设计师（系统策划）" [ref=e248]
+            - generic "策划类-游戏策划类" [ref=e249]:
+              - generic [ref=e250]: 策划类-游戏策划类
+            - generic "广州、杭州、上海" [ref=e251]:
+              - generic [ref=e252]: 广州、杭州、上海
+            - generic [ref=e253]: 2026-01-12
+          - generic [ref=e254] [cursor=pointer]:
+            - generic "AI Agent 工程师（游戏研发方向）" [ref=e256]
+            - generic "游戏研发类-游戏研发与技术类" [ref=e257]:
+              - generic [ref=e258]: 游戏研发类-游戏研发与技术类
+            - generic "广州、杭州、上海" [ref=e259]:
+              - generic [ref=e260]: 广州、杭州、上海
+            - generic [ref=e261]: 2026-04-17
+          - list [ref=e263]:
+            - listitem "上一页" [ref=e264]:
+              - generic [ref=e266]: 
+            - listitem "1" [ref=e267] [cursor=pointer]:
+              - generic [ref=e268]: "1"
+            - listitem "2" [ref=e269] [cursor=pointer]:
+              - generic [ref=e270]: "2"
+            - listitem "3" [ref=e271] [cursor=pointer]:
+              - generic [ref=e272]: "3"
+            - listitem "4" [ref=e273] [cursor=pointer]:
+              - generic [ref=e274]: "4"
+            - listitem "下一页" [ref=e275] [cursor=pointer]:
+              - generic [ref=e277]: 
+      - generic [ref=e282]: 关注官方微信平台 回复"求职资料包" get互娱offer攻略
+  - contentinfo [ref=e284]:
+    - generic [ref=e285]:
+      - generic [ref=e286]:
+        - link [ref=e287] [cursor=pointer]:
+          - /url: https://www.163.com/
+        - link [ref=e289] [cursor=pointer]:
+          - /url: http://game.163.com/
+        - generic [ref=e291]:
+          - link "公司简介" [ref=e292] [cursor=pointer]:
+            - /url: http://gb.corp.163.com/gb/about/overview.html
+          - link "客户服务" [ref=e293] [cursor=pointer]:
+            - /url: https://help.mail.163.com/service.html
+          - link "网易集团隐私政策及儿童个人信息保护规则" [ref=e294] [cursor=pointer]:
+            - /url: http://gb.corp.163.com/gb/legal.html
+          - link "网易游戏" [ref=e295] [cursor=pointer]:
+            - /url: http://game.163.com/about/
+          - link "商务合作" [ref=e296] [cursor=pointer]:
+            - /url: http://game.163.com/contact/business.html
+          - link "联系我们" [ref=e297] [cursor=pointer]:
+            - /url: http://game.163.com/contact/business.html
+        - generic [ref=e298]:
+          - text: 网易公司版权所有
+          - generic [ref=e299]: ©1997-2026
+          - link "中国网络游戏版权保护联盟举报中心" [ref=e300] [cursor=pointer]:
+            - /url: http://www.cogcpa.org/
+          - link "ICP备案： 粤B2-20090191-18" [ref=e301] [cursor=pointer]:
+            - /url: http://beian.miit.gov.cn/
+      - generic [ref=e303]: 关注我们

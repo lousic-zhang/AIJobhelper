@@ -1,0 +1,45 @@
+- generic [ref=e3]:
+  - banner [ref=e5]:
+    - link "logo" [ref=e7] [cursor=pointer]:
+      - /url: "#/campus/index"
+      - img "logo" [ref=e8]
+    - navigation [ref=e9]:
+      - link "首页" [ref=e10] [cursor=pointer]:
+        - /url: "#/campus/index"
+      - link "快Star-X" [ref=e11] [cursor=pointer]:
+        - /url: "#/campus/talent"
+      - link "应届招聘" [ref=e12] [cursor=pointer]:
+        - /url: "#/campus/jobs?positionNatureCode=fulltime"
+      - link "实习招聘" [ref=e13] [cursor=pointer]:
+        - /url: "#/campus/jobs?positionNatureCode=intern"
+      - link "校招动态" [ref=e14] [cursor=pointer]:
+        - /url: "#/campus/schedule/process"
+      - link "探索快手" [ref=e15] [cursor=pointer]:
+        - /url: "#/campus/about"
+    - button "登 录" [ref=e18] [cursor=pointer]:
+      - generic [ref=e19]: 登 录
+  - generic [ref=e27]:
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - generic [ref=e30]: 【留用实习】Golang开发工程师
+        - img [ref=e32] [cursor=pointer]
+      - generic [ref=e33]:
+        - generic [ref=e34]: 实习
+        - generic [ref=e36]: 工程类 - 服务端
+        - generic [ref=e38]: 北京
+        - generic [ref=e40]: 2026-04-28
+    - generic [ref=e41]:
+      - generic [ref=e42]:
+        - generic [ref=e43]: 职位描述
+        - generic [ref=e44]: 1、负责快手后端平台系统的研发工作，通过敏捷开发支持产品需求快速迭代，不断优化系统架构，支撑业务规模增长，保障服务稳定； 2、对现有系统的不足进行分析，找到目前系统的瓶颈，改进提高系统性能； 3、参与解决海量数据分布式处理、高效查询、数据一致性、准确性等方面带来的各种技术难题和挑战。
+      - generic [ref=e45]:
+        - generic [ref=e46]: 任职要求
+        - generic [ref=e47]: 1、本科及以上学历，计算机、软件相关专业优先； 2、熟练掌握Golang，有扎实的计算机基础，对数据结构、算法基础有深入理解； 3、熟悉软件开发流程，有一定项目开发经验为佳； 4、有互联网公司实习经历者优先，有OI、ICPC等竞赛经验者优先； 5、热爱互联网，对互联网产品和技术有浓厚的兴趣，热衷于追求技术极致与创新； 6、具有良好的沟通能力和团队合作精神、优秀的分析问题和解决问题的能力。
+    - generic [ref=e48]:
+      - generic [ref=e49]:
+        - button "投递简历" [disabled]:
+          - generic: 投递简历
+      - generic [ref=e50]:
+        - checkbox [ref=e53] [cursor=pointer]
+        - generic [ref=e55]: 我已阅读并同意《隐私政策》
+  - img "footer" [ref=e24]

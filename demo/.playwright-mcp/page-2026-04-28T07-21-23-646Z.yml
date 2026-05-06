@@ -1,0 +1,105 @@
+- generic [ref=e4]:
+  - generic [ref=e6]:
+    - link [ref=e8] [cursor=pointer]:
+      - /url: http://game.163.com/
+    - list [ref=e11]:
+      - listitem [ref=e12] [cursor=pointer]: 首页
+      - listitem [ref=e13] [cursor=pointer]: 人才专项
+      - listitem [ref=e15] [cursor=pointer]: 热招职位
+      - listitem [ref=e16] [cursor=pointer]: 招聘动态
+      - listitem [ref=e17] [cursor=pointer]: 映像互娱
+      - listitem [ref=e18] [cursor=pointer]: 了解互娱
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - link [ref=e23] [cursor=pointer]:
+          - /url: https://weibo.com/163yxzp?refer_flag=1001030103_&is_all=1
+        - link [ref=e25] [cursor=pointer]:
+          - /url: https://game.academy.163.com/
+      - generic [ref=e27] [cursor=pointer]: 登录
+  - generic [ref=e30]:
+    - generic [ref=e32]:
+      - tablist [ref=e33]:
+        - generic [ref=e34]:
+          - generic:
+            - generic:
+              - generic: 
+          - generic:
+            - generic:
+              - generic: 
+          - generic [ref=e38]:
+            - tab "网易互娱2027届实习生项目" [selected] [ref=e39] [cursor=pointer]
+            - tab "网易互娱2026届校园招聘" [ref=e40] [cursor=pointer]
+            - tab "艺术火花轻挑战赛（2026春）" [ref=e41] [cursor=pointer]
+      - generic:
+        - tabpanel
+    - generic [ref=e46]:
+      - generic [ref=e48]: 网易互娱2027届实习生项目
+      - generic [ref=e49]: 毕业时间：2026年9月-2027年8月 *中国大陆（内地）以毕业证时间为准，中国港澳台及海外地区以学位证时间为准
+      - generic [ref=e50]:
+        - generic [ref=e51]: 实习转正率超高、超多岗位HC、多项目方向直招、入职时间灵活可选，网易互娱等你加入
+        - generic [ref=e52] [cursor=pointer]: 详细介绍 >
+    - textbox "输入职位关键词" [ref=e58]
+    - generic [ref=e60]:
+      - generic [ref=e61]:
+        - generic [ref=e63]:
+          - generic [ref=e64]:
+            - generic [ref=e65]: 职位类型
+            - generic [ref=e66]:
+              - generic [ref=e68] [cursor=pointer]: 全部
+              - generic [ref=e70] [cursor=pointer]: 游戏策划类
+              - generic [ref=e72] [cursor=pointer]: 游戏研发与技术类
+              - generic [ref=e74] [cursor=pointer]: 艺术&设计类
+              - generic [ref=e76] [cursor=pointer]: 用户体验类
+              - generic [ref=e78] [cursor=pointer]: 产品策划类
+              - generic [ref=e80] [cursor=pointer]: 市场渠道类
+              - generic [ref=e82] [cursor=pointer]: 项目管理类
+          - generic [ref=e83]:
+            - generic [ref=e84]: 职位方向
+            - generic [ref=e87] [cursor=pointer]: 全部
+          - generic [ref=e88]:
+            - generic [ref=e89]: 工作城市
+            - generic [ref=e90]:
+              - generic [ref=e92] [cursor=pointer]: 全部
+              - generic [ref=e94] [cursor=pointer]: 广州
+              - generic [ref=e96] [cursor=pointer]: 杭州
+              - generic [ref=e98] [cursor=pointer]: 上海
+          - generic [ref=e99]:
+            - generic [ref=e100]: 高需职位
+            - generic [ref=e101]:
+              - generic [ref=e103] [cursor=pointer]: 游戏玩家
+              - generic [ref=e105] [cursor=pointer]: 设计达人
+              - generic [ref=e107] [cursor=pointer]: 创意鬼才
+              - generic [ref=e109] [cursor=pointer]: 造物大神
+              - generic [ref=e111] [cursor=pointer]: 技术极客
+              - generic [ref=e113] [cursor=pointer]: 运营达人
+              - generic [ref=e115] [cursor=pointer]: 专业不限
+        - generic [ref=e117]: 全部职位
+      - generic [ref=e130]: 关注官方微信平台 回复"求职资料包" get互娱offer攻略
+  - contentinfo [ref=e132]:
+    - generic [ref=e133]:
+      - generic [ref=e134]:
+        - link [ref=e135] [cursor=pointer]:
+          - /url: https://www.163.com/
+        - link [ref=e137] [cursor=pointer]:
+          - /url: http://game.163.com/
+        - generic [ref=e139]:
+          - link "公司简介" [ref=e140] [cursor=pointer]:
+            - /url: http://gb.corp.163.com/gb/about/overview.html
+          - link "客户服务" [ref=e141] [cursor=pointer]:
+            - /url: https://help.mail.163.com/service.html
+          - link "网易集团隐私政策及儿童个人信息保护规则" [ref=e142] [cursor=pointer]:
+            - /url: http://gb.corp.163.com/gb/legal.html
+          - link "网易游戏" [ref=e143] [cursor=pointer]:
+            - /url: http://game.163.com/about/
+          - link "商务合作" [ref=e144] [cursor=pointer]:
+            - /url: http://game.163.com/contact/business.html
+          - link "联系我们" [ref=e145] [cursor=pointer]:
+            - /url: http://game.163.com/contact/business.html
+        - generic [ref=e146]:
+          - text: 网易公司版权所有
+          - generic [ref=e147]: ©1997-2026
+          - link "中国网络游戏版权保护联盟举报中心" [ref=e148] [cursor=pointer]:
+            - /url: http://www.cogcpa.org/
+          - link "ICP备案： 粤B2-20090191-18" [ref=e149] [cursor=pointer]:
+            - /url: http://beian.miit.gov.cn/
+      - generic [ref=e151]: 关注我们

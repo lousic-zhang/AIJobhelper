@@ -1,0 +1,21 @@
+- generic [ref=e3]:
+  - banner [ref=e5]:
+    - link "logo" [ref=e7] [cursor=pointer]:
+      - /url: "#/campus/index"
+      - img "logo" [ref=e8]
+    - navigation [ref=e9]:
+      - link "首页" [ref=e10] [cursor=pointer]:
+        - /url: "#/campus/index"
+      - link "快Star-X" [ref=e11] [cursor=pointer]:
+        - /url: "#/campus/talent"
+      - link "应届招聘" [ref=e12] [cursor=pointer]:
+        - /url: "#/campus/jobs?positionNatureCode=fulltime"
+      - link "实习招聘" [ref=e13] [cursor=pointer]:
+        - /url: "#/campus/jobs?positionNatureCode=intern"
+      - link "校招动态" [ref=e14] [cursor=pointer]:
+        - /url: "#/campus/schedule/process"
+      - link "探索快手" [ref=e15] [cursor=pointer]:
+        - /url: "#/campus/about"
+    - button "登 录" [ref=e18] [cursor=pointer]:
+      - generic [ref=e19]: 登 录
+  - img "footer" [ref=e24]

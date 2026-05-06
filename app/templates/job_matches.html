@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="panel job-matches-page">
+    <div class="panel-header">
+        <div>
+            <h2>匹配岗位列表</h2>
+            <p class="muted">直接粘贴多个岗位详情页 URL，系统会通过 Browser MCP 依次打开、抽取正文，并按你的简历进行匹配排序。</p>
+        </div>
+    </div>
+
+    <form id="job-match-import-form" class="form compact">
+        <label>
+            <span>岗位详情页 URL 列表</span>
+            <textarea name="urls" rows="6" placeholder="每行一个 URL&#10;https://campus.kuaishou.cn/recruit/campus/e/#/campus/job-info/11434&#10;https://example.com/job/2" required></textarea>
+        </label>
+        <button class="button" type="submit">开始逐个评估</button>
+    </form>
+    <div id="job-match-import-result" class="hint"></div>
+</section>
+
+<section class="job-match-layout">
+    <aside class="panel">
+        <div class="row between">
+            <h2>最近任务</h2>
+            <span id="job-match-task-count" class="muted"></span>
+        </div>
+        <div id="job-match-task-list" class="knowledge-base-list">
+            {% if tasks %}
+                {% for item in tasks %}
+                <button
+                    class="knowledge-base-item {% if item.id == selected_task_id %}active{% endif %}"
+                    data-task-id="{{ item.id }}"
+                    type="button"
+                >
+                    <strong>{{ item.source_domain }}</strong>
+                    <span>{{ item.status }}</span>
+                </button>
+                {% endfor %}
+            {% else %}
+                <div class="empty-block">还没有匹配任务，先粘贴几条岗位详情页 URL。</div>
+            {% endif %}
+        </div>
+    </aside>
+
+    <section class="job-match-workspace" data-selected-task-id="{{ selected_task_id }}">
+        <article class="panel">
+            <h2 id="job-match-title">请选择一个匹配任务</h2>
+            <p id="job-match-status" class="muted">任务创建后，系统会通过 Browser MCP 依次打开岗位详情页并进行匹配评估。</p>
+            <div id="job-match-meta" class="stack"></div>
+        </article>
+
+        <article class="panel">
+            <h2>岗位结果</h2>
+            <div id="job-match-results" class="job-results-grid">
+                <div class="empty-block">任务完成后，这里会展示匹配岗位列表。</div>
+            </div>
+        </article>
+    </section>
+</section>
+
+<script src="/static/job_matches.js?v=20260428b"></script>
+{% endblock %}

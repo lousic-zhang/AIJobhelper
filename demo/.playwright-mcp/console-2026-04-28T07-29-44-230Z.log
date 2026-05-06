@@ -1,0 +1,34 @@
+[     749ms] [WARNING] [WARNING] initialize, will use legacy RC API. Consider enabling new API during init with use_explicit_rc_api flag @ https://dep176.gsf.netease.com/hubble-to-countly/1.1.1/js-sdk/assets/countly.min.js:0
+[     749ms] [INFO] [INFO] initialize, Countly initialized @ https://dep176.gsf.netease.com/hubble-to-countly/1.1.1/js-sdk/assets/countly.min.js:0
+[     749ms] [INFO] [INFO] initialize, Set the stored device ID @ https://dep176.gsf.netease.com/hubble-to-countly/1.1.1/js-sdk/assets/countly.min.js:0
+[     749ms] [INFO] [INFO] check_consent, Checking if consent is given for specific feature:[location] @ https://dep176.gsf.netease.com/hubble-to-countly/1.1.1/js-sdk/assets/countly.min.js:0
+[     750ms] [INFO] [INFO] check_consent, require_consent is off, no consent is necessary @ https://dep176.gsf.netease.com/hubble-to-countly/1.1.1/js-sdk/assets/countly.min.js:0
+[     751ms] [INFO] [INFO] add_event, Adding event: {"key":"tech_hubble_to_countly_pv","segmentation":{}} @ https://dep176.gsf.netease.com/hubble-to-countly/1.1.1/js-sdk/assets/countly.min.js:0
+[     751ms] [INFO] [INFO] check_consent, Checking if consent is given for specific feature:[events] @ https://dep176.gsf.netease.com/hubble-to-countly/1.1.1/js-sdk/assets/countly.min.js:0
+[     751ms] [INFO] [INFO] check_consent, require_consent is off, no consent is necessary @ https://dep176.gsf.netease.com/hubble-to-countly/1.1.1/js-sdk/assets/countly.min.js:0
+[     752ms] [INFO] [INFO]  With event ID: [e27ec1d21777361384981], successfully adding the last event:{"key":"tech_hubble_to_countly_pv","count":1,"segmentation":{},"timestamp":1777361384981,"hour":15,"dow":2,"id":"e27ec1d21777361384981","cvid":""} @ https://dep176.gsf.netease.com/hubble-to-countly/1.1.1/js-sdk/assets/countly.min.js:0
+[     754ms] [INFO] [INFO] track_session, Starting tracking user session @ https://dep176.gsf.netease.com/hubble-to-countly/1.1.1/js-sdk/assets/countly.min.js:0
+[     754ms] [INFO] [INFO] begin_session, Starting the session. There was an ongoing session: [false] @ https://dep176.gsf.netease.com/hubble-to-countly/1.1.1/js-sdk/assets/countly.min.js:0
+[     754ms] [INFO] [INFO] check_consent, Checking if consent is given for specific feature:[sessions] @ https://dep176.gsf.netease.com/hubble-to-countly/1.1.1/js-sdk/assets/countly.min.js:0
+[     754ms] [INFO] [INFO] check_consent, require_consent is off, no consent is necessary @ https://dep176.gsf.netease.com/hubble-to-countly/1.1.1/js-sdk/assets/countly.min.js:0
+[     754ms] [INFO] [INFO] report_orientation, Reporting orientation @ https://dep176.gsf.netease.com/hubble-to-countly/1.1.1/js-sdk/assets/countly.min.js:0
+[     754ms] [INFO] [INFO] check_consent, Checking if consent is given for specific feature:[users] @ https://dep176.gsf.netease.com/hubble-to-countly/1.1.1/js-sdk/assets/countly.min.js:0
+[     754ms] [INFO] [INFO] check_consent, require_consent is off, no consent is necessary @ https://dep176.gsf.netease.com/hubble-to-countly/1.1.1/js-sdk/assets/countly.min.js:0
+[     754ms] [INFO] [INFO]  With event ID: [fc7b84f31777361384984], successfully adding the last event:{"key":"[CLY]_orientation","count":1,"segmentation":{"mode":"landscape"},"timestamp":1777361384984,"hour":15,"dow":2,"id":"fc7b84f31777361384984","cvid":""} @ https://dep176.gsf.netease.com/hubble-to-countly/1.1.1/js-sdk/assets/countly.min.js:0
+[     755ms] [LOG] [VERBOSE] begin_session, Session state, forced: [undefined], useSessionCookie: [true], seconds to expire: [1712], expired: [false]  @ https://dep176.gsf.netease.com/hubble-to-countly/1.1.1/js-sdk/assets/countly.min.js:0
+[     755ms] [INFO] [INFO] start_time, Starting tracking duration @ https://dep176.gsf.netease.com/hubble-to-countly/1.1.1/js-sdk/assets/countly.min.js:0
+[     755ms] [INFO] [INFO] track_pageview, Tracking page views @ https://dep176.gsf.netease.com/hubble-to-countly/1.1.1/js-sdk/assets/countly.min.js:0
+[     755ms] [LOG] [VERBOSE] track_pageview, last view is:[null], current view ID is:[null], previous view ID is:[null] @ https://dep176.gsf.netease.com/hubble-to-countly/1.1.1/js-sdk/assets/countly.min.js:0
+[     755ms] [LOG] [VERBOSE] track_pageview, last view is assigned:[/position], current view ID is:[fa8e94fc1777361384985], previous view ID is:[null] @ https://dep176.gsf.netease.com/hubble-to-countly/1.1.1/js-sdk/assets/countly.min.js:0
+[     755ms] [INFO] [INFO] check_consent, Checking if consent is given for specific feature:[views] @ https://dep176.gsf.netease.com/hubble-to-countly/1.1.1/js-sdk/assets/countly.min.js:0
+[     755ms] [INFO] [INFO] check_consent, require_consent is off, no consent is necessary @ https://dep176.gsf.netease.com/hubble-to-countly/1.1.1/js-sdk/assets/countly.min.js:0
+[     755ms] [INFO] [INFO]  With event ID: [fa8e94fc1777361384985], successfully adding the last event:{"key":"[CLY]_view","count":1,"segmentation":{"name":"/position","visit":1,"view":"/position","domain":"campus.game.163.com"},"timestamp":1777361384985,"hour":15,"dow":2,"id":"fa8e94fc1777361384985","pvid":""} @ https://dep176.gsf.netease.com/hubble-to-countly/1.1.1/js-sdk/assets/countly.min.js:0
+[     755ms] [INFO] [INFO] track_clicks, Starting to track clicks @ https://dep176.gsf.netease.com/hubble-to-countly/1.1.1/js-sdk/assets/countly.min.js:0
+[     755ms] [INFO] [INFO] track_scrolls, Starting to track scrolls @ https://dep176.gsf.netease.com/hubble-to-countly/1.1.1/js-sdk/assets/countly.min.js:0
+[     756ms] [INFO] [INFO] track_errors, Started tracking errors @ https://dep176.gsf.netease.com/hubble-to-countly/1.1.1/js-sdk/assets/countly.min.js:0
+[     756ms] [INFO] [INFO] track_links, Starting to track clicks to links @ https://dep176.gsf.netease.com/hubble-to-countly/1.1.1/js-sdk/assets/countly.min.js:0
+[     756ms] [INFO] [INFO] track_forms, Starting to track form submissions. DOM object provided:[false] Tracking hidden inputs :[false] @ https://dep176.gsf.netease.com/hubble-to-countly/1.1.1/js-sdk/assets/countly.min.js:0
+[     756ms] [INFO] [INFO] collect_from_forms, Starting to collect possible user data. DOM object provided:[false] Submitting custom user property:[false] @ https://dep176.gsf.netease.com/hubble-to-countly/1.1.1/js-sdk/assets/countly.min.js:0
+[     756ms] [INFO] [INFO] check_consent, Checking if consent is given for specific feature:[location] @ https://dep176.gsf.netease.com/hubble-to-countly/1.1.1/js-sdk/assets/countly.min.js:0
+[     756ms] [INFO] [INFO] check_consent, require_consent is off, no consent is necessary @ https://dep176.gsf.netease.com/hubble-to-countly/1.1.1/js-sdk/assets/countly.min.js:0
+[     817ms] [INFO] [INFO] healthCheck, Request was successful. Status: [{"result":"Success"}], response: [undefined] @ https://dep176.gsf.netease.com/hubble-to-countly/1.1.1/js-sdk/assets/countly.min.js:0
