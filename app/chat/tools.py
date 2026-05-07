@@ -294,6 +294,32 @@ class KnowledgeRetrievalQATool:
 
 
 @dataclass
+class KnowledgeRetrievalQATool:
+    settings: Settings
+    retrieval_service: KnowledgeRetrievalService
+    name: str = "knowledge_retrieval_qa"
+    description: str = "Retrieve the most relevant knowledge chunks for the current knowledge-base question."
+
+    def call(self, knowledge_base_id: str, query: str) -> tuple[str, list[KnowledgeSourceChunk]]:
+        sources = self.retrieval_service.query(knowledge_base_id=knowledge_base_id, query=query, limit=4)
+        if not sources:
+            return "No relevant content was found in the current knowledge base.", []
+        context_blocks: list[str] = []
+        for index, item in enumerate(sources, start=1):
+            title = item.title or "Untitled"
+            snippet = item.content.strip()
+            if len(snippet) > 1200:
+                snippet = snippet[:1200].rstrip() + "..."
+            context_blocks.append(
+                f"[{index}] ({title})\n"
+                f"Source: {item.source_url}\n"
+                f"Score: {item.score:.3f}\n"
+                f"{snippet}"
+            )
+        return "\n\n".join(context_blocks), sources
+
+
+@dataclass
 class JDResumeMatchTool:
     settings: Settings
     knowledge_match_service: KnowledgeMatchService

@@ -32,6 +32,8 @@ class Settings:
         self.openai_base_url = os.getenv("OPENAI_BASE_URL", "https://api.openai.com/v1")
         self.openai_api_key = os.getenv("OPENAI_API_KEY", "")
         self.openai_model = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
+        self.openai_embedding_model = os.getenv("OPENAI_EMBEDDING_MODEL", self.openai_model)
+        self.openai_embedding_dimensions = int(os.getenv("OPENAI_EMBEDDING_DIMENSIONS", "0"))
         self.openai_proxy_url = os.getenv("OPENAI_PROXY_URL", "")
         self.upload_dir = os.getenv("UPLOAD_DIR", str(BASE_DIR / "uploads"))
         self.default_user_id = os.getenv("DEFAULT_USER_ID", "local-user")

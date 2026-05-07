@@ -1,9 +1,15 @@
 # AIJobHelper
 
-AIJobHelper is a local job-search assistant built with `FastAPI + Jinja + LangChain`. 
+AIJobHelper is a local job-search assistant built with `FastAPI + Jinja + LangChain`.
+It keeps the core ideas from AIWorkHelper:
 
-The content as follow:
-
+- chat entrypoint
+- `Router -> Handler -> Tool`
+- multi-turn memory
+- resume upload and parsing
+- application tracking
+- multi-knowledge-base RAG by job position
+- register/login with Redis session
 
 ## Pages
 
