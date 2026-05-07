@@ -1,0 +1,91 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - link "美团招聘" [ref=e6] [cursor=pointer]:
+      - /url: /web/home
+      - img "美团招聘" [ref=e7]
+    - generic [ref=e8]:
+      - link "首页" [ref=e10] [cursor=pointer]:
+        - /url: /web/home
+        - generic [ref=e11]: 首页
+      - link "北斗计划" [ref=e14] [cursor=pointer]:
+        - /url: /web/beidouprogram
+        - generic [ref=e15]: 北斗计划
+      - link "社会招聘" [ref=e18] [cursor=pointer]:
+        - /url: /web/social
+        - generic [ref=e19]: 社会招聘
+      - link "校园招聘" [ref=e22] [cursor=pointer]:
+        - /url: /web/campus
+        - generic [ref=e23]: 校园招聘
+      - link "美团赛事" [ref=e26] [cursor=pointer]:
+        - /url: /web/competition
+        - generic [ref=e27]: 美团赛事
+      - link "了解美团" [ref=e30] [cursor=pointer]:
+        - /url: /web/about/ourTeam?bg=BG005
+        - generic [ref=e31]: 了解美团
+    - generic [ref=e33]:
+      - button "Global Careers" [ref=e34] [cursor=pointer]:
+        - generic [ref=e35]: Global Careers
+      - button "登录" [ref=e36] [cursor=pointer]:
+        - generic [ref=e37]: 登录
+  - generic [ref=e39]:
+    - generic [ref=e42]:
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - generic [ref=e45]: 【转正实习】软件开发工程师（后端方向）
+          - generic [ref=e46]: 实习-校园招聘
+        - generic [ref=e49]: 工作地点：北京市、上海市、成都市、深圳市
+        - generic [ref=e51]:
+          - generic [ref=e52]: 
+          - generic [ref=e53]: 最多可投递3个职位，但同一时间仅有1个职位流程处于进行中，第一志愿将被优先考虑。
+      - generic [ref=e56]:
+        - generic [ref=e57] [cursor=pointer]:
+          - generic [ref=e58]: 
+          - generic [ref=e59]: 分享
+        - button "立即申请" [ref=e60] [cursor=pointer]:
+          - generic [ref=e61]: 立即申请
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e65]: 岗位职责
+        - generic [ref=e66]: 1.负责各类后台服务和业务系统的需求分析、系统设计、开发实现；
+        - generic [ref=e67]: 2.参与后端模块、数据平台、基础服务等的开发工作；
+        - generic [ref=e68]: 3.分析并优化业务流程，参与系统长期架构设计与规划，探索合理、可扩展的系统模型，通过自动化等手段提升研发效率，提升需求迭代速度与系统能力；
+        - generic [ref=e69]: 4.保证系统稳定性，提升系统的容灾、降级及应急能力，提升系统的可用性和可维护性，协同QA保证高质量开发交付，优化系统性能、及时排查线上故障，保证系统稳定；
+        - generic [ref=e70]: 5.积极主动协调相关团队完成项目，促进团队合作，积极影响其它成员。
+      - generic [ref=e71]:
+        - generic [ref=e72]: 任职要求
+        - generic [ref=e73]: 1.本科及以上学历；
+        - generic [ref=e74]: 2.掌握一种以上的开发语言，包括但不限于Java、C、C++、Python、Golang等，了解MySQL等基本使用，熟练使用SQL语句，会常用的shell命令；
+        - generic [ref=e75]: 3.具有扎实的数据结构、操作系统、数据库、算法、网络等计算机基础知识；
+        - generic [ref=e76]: 4.优秀的学习能力和自驱力，对新技术有强烈的求知精神，能深入代码研究，能通过英文论文等第一手资料了解业界新技术，积极学习新技术提升自我、提升团队；
+        - generic [ref=e77]: 5.优秀的逻辑思维能力，特别是流程梳理能力和建模能力，善于从复杂系统表象中分析问题。具有较强的解决问题能力，对解决复杂问题充满激情；
+        - generic [ref=e78]: 6.善于交流，有良好的团队合作精神和协调沟通能力，有一定推动能力。
+        - generic [ref=e79]: 具备以下经验者优先
+        - generic [ref=e80]: 1.有参与各级计算机竞赛并获奖经历；
+        - generic [ref=e81]: 2.有原创的技术博客或者开源项目或者参与过知名的开源项目。
+        - generic [ref=e82]: 岗位亮点
+        - generic [ref=e83]: 1.美团业务场景复杂，能够接触商家、销售、广告营运、骑手等的各种需求，流量超大，且仍在高速发展中，相关的后台系统建设非常具有挑战性；
+        - generic [ref=e84]: 2.公司技术氛围浓厚，对外有知名的技术博客，对内有技术学院和技术委员会，大牛众多，各层级的技术交流和培训机制非常完善。
+      - generic [ref=e85]:
+        - generic [ref=e86]: 工作城市
+        - generic [ref=e87]: 北京市、上海市、成都市、深圳市
+  - generic [ref=e89]:
+    - generic [ref=e90]:
+      - img "美团招聘logo" [ref=e92]
+      - generic [ref=e93]:
+        - paragraph [ref=e94]: 一起成长，一起更好
+        - paragraph [ref=e95]: Grow Together, Better Together
+    - generic [ref=e96]:
+      - generic [ref=e98]:
+        - link "美团" [ref=e100] [cursor=pointer]:
+          - /url: https://www.meituan.com
+        - generic [ref=e101]: "|"
+        - generic [ref=e102]: "@2026 美团版权所有"
+        - link "京ICP备10211739号" [ref=e104] [cursor=pointer]:
+          - /url: https://beian.miit.gov.cn/
+        - link "京公网安备 11000002002052号" [ref=e107] [cursor=pointer]:
+          - /url: http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002002052
+        - generic [ref=e108]: "|"
+        - link "隐私政策" [ref=e110] [cursor=pointer]:
+          - /url: https://rules-center.meituan.com/rules-detail/2
+        - generic [ref=e111]: 招聘意见反馈：zhaopin@meituan.com
+      - generic [ref=e114]: 关注我们
